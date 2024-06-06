@@ -1,0 +1,49 @@
+{
+    "id": "comprehend-languages",
+    "title": "Comprehend Languages",
+    "description": "Comprehend languages leverages the Deepl API to automatically translate Foundry Journal Entries & (some) item descriptions from English into a language of your choice. In the process, a new journal entry is created that contains the translated text.",
+    "version": "2.3.0",
+    "library": "false",
+    "compatibility": {
+        "minimum": 11,
+        "verified": 11,
+        "maximum": 12
+    },
+    "authors": [
+        {
+            "name": "Meneltamar",
+            "url": "https://github.com/meneltamar",
+            "discord": "Meneltamar#3331"
+        }
+    ],
+    "media": [
+        {
+            "type": "icon",
+            "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+        },
+        {
+            "type": "cover",
+            "location": ""
+        },
+        {
+            "type": "screenshot",
+            "location": ""
+        }
+    ],
+    "conflicts": [],
+    "esmodules": ["module.js"],
+    "styles": ["styles/comprehend-languages.css"],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "url": "https://github.com/meneltamar/fvtt-comprehend-languages",
+    "manifest": "https://github.com/meneltamar/fvtt-comprehend-languages/releases/download/2.3.0/module.json",
+    "download": "https://github.com/meneltamar/fvtt-comprehend-languages/releases/download/2.3.0/module.zip",
+    "readme": "https://github.com/meneltamar/fvtt-comprehend-languages/blob/master/README.md",
+    "changelog": "https://github.com/meneltamar/fvtt-comprehend-languages/blob/master/CHANGELOG.md",
+    "bugs": "https://github.com/meneltamar/fvtt-comprehend-languages/issues"
+}
